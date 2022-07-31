@@ -1,0 +1,66 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.contenedorLocal {
+  margin: auto;
+  --texto1:rgb(86, 86, 86);
+}
+
+.contenedorLocal .header {
+  height: 250px;
+  background-image: radial-gradient(circle at 50% -20.71%, 
+                  #d1fff8 0, #befff6 10%, #a7fff4 20%, #8dfff3 30%, 
+                  #6cfbf2 40%, #3cf2f2 50%, #00e8f3 60%, #00dff5 70%,
+                   #00d6f9 80%, #00cefd 90%, #00c6ff 100%);
+  color: var(--texto1,black);
+  font-weight: bold;
+
+}
+
+.contenedorLocal .formulario {
+  height: 200px;
+  background-color: azure;
+}
+
+.contenedorLocal .contenido {
+  min-height: 300px;
+  background-color:  #a3ebff;
+  padding: 20px 10% 20px 10%;
+}
+
+.header,.contenido,.formulario,form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+form {
+  width: 80%;
+}
+input[type ="text"] {
+  font-size: 1.4em;
+  text-align: center;
+  height: 60px !important;
+}
+
+.titulo {
+  font-size: 4em;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.enlaceShort {
+  font-size: 2em;
+}
+
+@media screen and (max-width:550px) {
+  input[type ="text"] {
+      font-size: 1.4em;
+      height: 40px;
+  }
+  .titulo {
+      font-size: 2.2em;
+  }
+}
