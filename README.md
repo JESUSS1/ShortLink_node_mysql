@@ -6,11 +6,11 @@ El diseño de base que se uso es simple para este ejemplo , se encuentra en el a
 
 **Pre-requisitos : Tener instalado nodeJS, npm y Mysql.**
 
-** 1. Clonar el repositorio.**
+**1. Clonar el repositorio.**
 
-**2. Crear la base de datos en base: **El modelo que se encuentra en el archivo **BaseDeDatos.txt** de la raiz del proyecto.
+**2. Crear la base de datos en base:** El modelo que se encuentra en el archivo **BaseDeDatos.txt** de la raiz del proyecto.
 
-**3.  Configurar los datos de conexión**: En el proyecto ir a la carpeta config/conexion.js  y cambiar los datos de conexion , si usas root como usuario lo puedes dejar sino lo cambias por el nombre de otro usuario que uses, igual con la contraseña.
+**3.  Configurar los datos de conexión:** En el proyecto ir a la carpeta config/conexion.js  y cambiar los datos de conexion , si usas root como usuario lo puedes dejar sino lo cambias por el nombre de otro usuario que uses, igual con la contraseña.
 
 **4. Instalar las dependencias:** en consola debe de ubicarse en la raiz del proyecto.
 
