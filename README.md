@@ -1,8 +1,8 @@
 # Introducción
-Este un cortador de enlaces fue creado con las tecnolgias de node y mysql entre otras librerias necesarias.
+Este un cortador de enlaces fue creado con las tecnologias de node y mysql entre otras librerias necesarias.
 
 Una de las librerias usadas es **[uuid](https://www.npmjs.com/package/uuid "uuid")** para generar identificadores unicos que nos servira para usarlos en los enlaces cortos que se mostrará.
-El diseño de base que se uso es simple para este ejemplo , se encuentra en el archivo BaseDeDatos.txt de la raiz del proyecto.
+El diseño de base que se uso es simple para este ejemplo, se encuentra en el archivo BaseDeDatos.txt de la raiz del proyecto.
 
 **Pre-requisitos : Tener instalado nodeJS, npm y Mysql.**
 
