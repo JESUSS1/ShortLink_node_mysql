@@ -1,4 +1,4 @@
-var mySql = require('mysql');
+var mySql = require('mysql2');
 
 /**
  * Creacion de la Cadena de conexion a la base de datos mySql
