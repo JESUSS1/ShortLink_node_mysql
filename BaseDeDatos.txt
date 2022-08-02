@@ -1,0 +1,9 @@
+CREATE database IF NOT exists shortLink;
+
+use shortLink;
+
+create table links (
+    id_link int AUTO_INCREMENT PRIMARY KEY,
+    enlaceOriginal Text NOT NULL,
+    enlaceShort Text not null
+);
